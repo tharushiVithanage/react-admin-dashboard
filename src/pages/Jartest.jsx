@@ -8,10 +8,10 @@ import UserRetention from "../components/analytics/UserRetention";
 import CustomerSegmentation from "../components/analytics/CustomerSegmentation";
 import AIPoweredInsights from "../components/analytics/AIPoweredInsights";
 
-const AnalyticsPage = () => {
+const Jartest = () => {
 	return (
 		<div className='flex-1 overflow-auto relative z-10 bg-gray-900'>
-			<Header title={"Analytics Dashboard"} />
+			<Header title={"Jar Test"} />
 
 			<main className='max-w-7xl mx-auto py-6 px-4 lg:px-8'>
 				<OverviewCards />
@@ -29,4 +29,4 @@ const AnalyticsPage = () => {
 		</div>
 	);
 };
-export default AnalyticsPage;
+export default Jartest;

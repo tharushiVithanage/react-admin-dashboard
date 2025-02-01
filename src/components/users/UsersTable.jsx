@@ -98,11 +98,10 @@ const UsersTable = () => {
 
 								<td className='px-6 py-4 whitespace-nowrap'>
 									<span
-										className={`px-2 inline-flex text-xs leading-5 font-semibold rounded-full ${
-											user.status === "Active"
+										className={`px-2 inline-flex text-xs leading-5 font-semibold rounded-full ${user.status === "Active"
 												? "bg-green-800 text-green-100"
 												: "bg-red-800 text-red-100"
-										}`}
+											}`}
 									>
 										{user.status}
 									</span>

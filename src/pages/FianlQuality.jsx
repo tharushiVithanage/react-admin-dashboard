@@ -7,10 +7,11 @@ import SalesOverviewChart from "../components/overview/SalesOverviewChart";
 import CategoryDistributionChart from "../components/overview/CategoryDistributionChart";
 import SalesChannelChart from "../components/overview/SalesChannelChart";
 
-const OverviewPage = () => {
+
+const FianlQuality = () => {
 	return (
 		<div className='flex-1 overflow-auto relative z-10'>
-			<Header title='Overview' />
+			<Header title='Fianl Water Quality' />
 
 			<main className='max-w-7xl mx-auto py-6 px-4 lg:px-8'>
 				{/* STATS */}
@@ -37,4 +38,4 @@ const OverviewPage = () => {
 		</div>
 	);
 };
-export default OverviewPage;
+export default FianlQuality;
